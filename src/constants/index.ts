@@ -58,11 +58,11 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Helper - A Developer Platform',
+      desc: 'Helper is a Platform for asking and answering programming questions. Get help, share knowledge, and collaborate with developers from around the world. Explore topics in web development, mobile app development, algorithms, data structures, and more.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Built with Next.js 14, Tailwind CSS, TypeScript, MongoDB and Clerk, Helper is an all-in-one solution for developers. It can be turned into a side income or even a full-fledged business.',
+      href: 'https://helpernet.vercel.app',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
@@ -74,6 +74,11 @@ export const navLinks = [
       tags: [
         {
           id: 1,
+          name: 'Next.js',
+          path: '/assets/next-js.svg',
+        },
+        {
+          id: 5,
           name: 'React.js',
           path: '/assets/react.svg',
         },
@@ -89,8 +94,8 @@ export const navLinks = [
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Mongo DB',
+          path: '/assets/mongodb.svg',
         },
       ],
     },
@@ -132,11 +137,11 @@ export const navLinks = [
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'FaceLink - A Video Conference App',
+      desc: 'FaceLink is a video conferencing app that enables users to connect with others in real-time. It provides a seamless and intuitive experience, ensuring that everyone in the room can communicate with each other.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        'With Next.js 14, Tailwind CSS, Clerk and using the power of Getstream.io, it enabling users to access various functionalities such as recording, screen sharing, and managing participants',
+      href: 'https://face-link-vc.vercel.app',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -166,7 +171,7 @@ export const navLinks = [
         {
           id: 4,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: '/assets/stream.png',
         },
       ],
     },
@@ -208,11 +213,11 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+      title: 'Realo - A Real Estate Application',
+      desc: ' Realo is an innovative platform designed to simplify real estate management. It offers a comprehensive solution for managing real estate properties, providing a seamless user experience for both property owners and seekers.',
       subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+        'Built with MERN Stack, Tailwind CSS, Firebase and Redux Toolkit, Realo ensures a smooth and efficient real estate management experience, tailored to meet the needs of modern consumers.',
+      href: 'https://github.com/PrtHub/realo',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
@@ -234,13 +239,18 @@ export const navLinks = [
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'Node JS',
+          path: '/assets/nodejs3.svg',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'MongoDB',
+          path: '/assets/mongodb.svg',
+        },
+        {
+          id: 5,
+          name: 'Express',
+          path: '/assets/express.svg',
         },
       ],
     },
