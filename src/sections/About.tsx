@@ -1,13 +1,53 @@
-import { useState } from 'react';
-import Globe from 'react-globe.gl';
+import { useState } from "react";
+import Globe from "react-globe.gl";
 
-import Button from '../components/Button.jsx';
+import Button from "../components/Button.jsx";
+import { IconCloud } from "../components/IconCloud.js";
+
+const slugs = [
+  "typescript",
+  "javascript",
+  // "dart",
+  // "java",
+  "react",
+  // "flutter",
+  // "android",
+  "html5",
+  "css3",
+  "nodedotjs",
+  "express",
+  "nextdotjs",
+  "prisma",
+  // "amazonaws",
+  "postgresql",
+  "firebase",
+  // "nginx",
+  "vercel",
+  // "testinglibrary",
+  // "jest",
+  // "cypress",
+  "docker",
+  "git",
+  // "jira",
+  "github",
+  // "gitlab",
+  "visualstudiocode",
+  // "androidstudio",
+  // "sonarqube",
+  "figma",
+  "reactnative",
+  "mongodb",
+  'tailwindcss',
+  "drizzle",
+  "framermotion",
+  "gsap",
+];
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('pritamfinds@gmail.com');
+    navigator.clipboard.writeText("pritamfinds@gmail.com");
     setHasCopied(true);
 
     setTimeout(() => {
@@ -20,13 +60,18 @@ const About = () => {
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+            <img
+              src="assets/grid1.png"
+              alt="grid-1"
+              className="w-full sm:h-[276px] h-fit object-contain"
+            />
 
             <div>
               <p className="grid-headtext">Hi, I’m Pritam Ghosh</p>
               <p className="grid-subtext">
-                With 1.5 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                With 1.5 years of experience, I have honed my skills in both
+                frontend and backend dev, creating dynamic and responsive
+                websites.
               </p>
             </div>
           </div>
@@ -34,13 +79,15 @@ const About = () => {
 
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
+            <div className="relative size-full flex items-center justify-center overflow-hidden rounded-lg bg-background ">
+              <IconCloud iconSlugs={slugs} />
+            </div>
 
-            <div>
+            <div> 
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+                I specialize in a variety of languages, frameworks, and tools
+                that allow me to build robust and scalable applications
               </p>
             </div>
           </div>
@@ -57,12 +104,25 @@ const About = () => {
                 showGraticules
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                labelsData={[{ lat: 40, lng: -100, text: 'Kolkata, India', color: 'white', size: 15 }]}
+                labelsData={[
+                  {
+                    lat: 40,
+                    lng: -100,
+                    text: "Kolkata, India",
+                    color: "white",
+                    size: 15,
+                  },
+                ]}
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Kolkata, India and open to remote work worldwide.</p>
+              <p className="grid-headtext">
+                I’m very flexible with time zone communications & locations
+              </p>
+              <p className="grid-subtext">
+                I&apos;m based in Kolkata, India and open to remote work
+                worldwide.
+              </p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -70,13 +130,18 @@ const About = () => {
 
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
+            <img
+              src="assets/grid3.png"
+              alt="grid-3"
+              className="w-full sm:h-[266px] h-fit object-contain"
+            />
 
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                I love solving problems and building things through code.
+                Programming isn&apos;t just my profession—it&apos;s my passion.
+                I enjoy exploring new technologies, and enhancing my skills.
               </p>
             </div>
           </div>
@@ -93,8 +158,13 @@ const About = () => {
             <div className="space-y-2">
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
-                <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">pritamfinds@gmail.com</p>
+                <img
+                  src={hasCopied ? "assets/tick.svg" : "assets/copy.svg"}
+                  alt="copy"
+                />
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
+                  pritamfinds@gmail.com
+                </p>
               </div>
             </div>
           </div>
