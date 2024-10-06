@@ -58,7 +58,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="c-space my-20" id="contact">
+    <section className="c-space my-20 pb-20" id="contact">
       {alert.show && <Alert {...alert} />}
 
       <div className="relative w-full h-full flex items-center justify-center flex-col">
