@@ -67,11 +67,9 @@ const About = () => {
             />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Pritam Ghosh</p>
+              <p className="grid-headtext">Hi, I’m Pritam Ghosh!</p>
               <p className="grid-subtext">
-                With 1.5 years of experience, I have honed my skills in both
-                frontend and backend dev, creating dynamic and responsive
-                websites.
+              With over 1.5 years of experience, I specialize in both frontend and backend development, crafting dynamic and responsive web applications.
               </p>
             </div>
           </div>
@@ -86,8 +84,7 @@ const About = () => {
             <div> 
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools
-                that allow me to build robust and scalable applications
+              I am proficient in a diverse range of languages, frameworks, and tools that empower me to build robust, scalable applications tailored to meet client needs
               </p>
             </div>
           </div>
@@ -117,11 +114,10 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">
-                I’m very flexible with time zone communications & locations
+              Flexibility & Location
               </p>
               <p className="grid-subtext">
-                I&apos;m based in Kolkata, India and open to remote work
-                worldwide.
+              I pride myself on my flexibility with time zones and communication styles. Based in Kolkata, India, I am open to remote opportunities worldwide.
               </p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
