@@ -1,5 +1,9 @@
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import { workExperiences } from "../constants";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+import CanvasLoader from "../components/Loading";
+import Developer from "../components/Developer";
 
 const Exprience = () => {
   const [animationName, setAnimationName] = useState("idle");
@@ -10,7 +14,18 @@ const Exprience = () => {
         <p className="head-text">My Work Experience</p>
 
         <div className="work-container">
-          <div className="work-canvas"></div>
+          <div className="work-canvas">
+          <Canvas>
+              <ambientLight intensity={7} />
+              <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+              <directionalLight position={[10, 10, 10]} intensity={1} />
+              <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
+
+              <Suspense fallback={<CanvasLoader />}>
+                <Developer position-y={-3} scale={3} animationName={animationName} />
+              </Suspense>
+            </Canvas>
+          </div>
 
           <div className="work-content">
             <div className="sm:py-10 py-5 sm:px-5 px-2.5">
@@ -18,7 +33,7 @@ const Exprience = () => {
 
                 const hostname = new URL(item.url).hostname;
                 const logoUrl = `https://www.google.com/s2/favicons?domain=${hostname}&sz=32`;
-                
+
                 return (
                   <div
                     key={index}
