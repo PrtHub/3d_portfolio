@@ -47,7 +47,7 @@ const DemoComputer = (props: Props) => {
     } else if (textureType === 'video') {
       const video = document.createElement('video');
       video.src = props.texture;
-      video.loop = false;
+      video.loop = true;
       video.muted = true;
       video.play();
       const videoTexture = new THREE.VideoTexture(video);

@@ -143,7 +143,7 @@ export const navLinks = [
         'With Next.js 14, Tailwind CSS, Clerk and using the power of Getstream.io, it enabling users to access various functionalities such as recording, screen sharing, and managing participants',
       href: 'https://face-link-vc.vercel.app',
       texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+      logo: '/assets/facelink.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -218,8 +218,8 @@ export const navLinks = [
       subdesc:
         'Built with MERN Stack, Tailwind CSS, Firebase and Redux Toolkit, Realo ensures a smooth and efficient real estate management experience, tailored to meet the needs of modern consumers.',
       href: 'https://github.com/PrtHub/realo',
-      texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
+      texture: '/textures/project/project4.mp4',
+      logo: '/assets/realo.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
         border: '0.2px solid #252262',
