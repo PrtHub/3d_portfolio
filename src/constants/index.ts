@@ -61,7 +61,7 @@ export const navLinks = [
       title: 'Helper - A Developer Platform',
       desc: 'Helper is a Platform for asking and answering programming questions. Get help, share knowledge, and collaborate with developers from around the world. Explore topics in web development, mobile app development, algorithms, data structures, and more.',
       subdesc:
-        'Built with Next.js 14, Tailwind CSS, TypeScript, MongoDB and Clerk, Helper is an all-in-one solution for developers. It can be turned into a side income or even a full-fledged business.',
+        'Built with Next.js 14, Tailwind CSS, TypeScript, MongoDB and Clerk, Helper is an all-in-one solution for developers. It offers a comprehensive platform for asking and answering programming questions.',
       href: 'https://helpernet.vercel.app',
       videotexture: '/textures/project/project1.mp4',
       imagetexture: '/textures/project/project1.png',
@@ -100,43 +100,49 @@ export const navLinks = [
         },
       ],
     },
-    // {
-    //   title: 'LiveDoc - Real-Time Google Docs Clone',
-    //   desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-    //   subdesc:
-    //     'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    //   href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    //   texture: '/textures/project/project2.mp4',
-    //   logo: '/assets/project-logo2.png',
-    //   logoStyle: {
-    //     backgroundColor: '#13202F',
-    //     border: '0.2px solid #17293E',
-    //     boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    //   },
-    //   spotlight: '/assets/spotlight2.png',
-    //   tags: [
-    //     {
-    //       id: 1,
-    //       name: 'React.js',
-    //       path: '/assets/react.svg',
-    //     },
-    //     {
-    //       id: 2,
-    //       name: 'TailwindCSS',
-    //       path: 'assets/tailwindcss.png',
-    //     },
-    //     {
-    //       id: 3,
-    //       name: 'TypeScript',
-    //       path: '/assets/typescript.png',
-    //     },
-    //     {
-    //       id: 4,
-    //       name: 'Framer Motion',
-    //       path: '/assets/framer.png',
-    //     },
-    //   ],
-    // },
+    {
+      title: 'Atlas - An LMS Platform',
+      desc: 'Atlas is an online learning platform that helps students and teachers connect. It offers a comprehensive solution for online learning, with a focus on accessibility and customization.',
+      subdesc:
+        'With Atlas, students can access a variety of learning resources, from online courses to video lectures. It provides a seamless and engaging learning experience for teachers and learners alike.',
+      href: 'https://atlas-psi-khaki.vercel.app',
+      videotexture: '/textures/project/project2.mp4',
+      imagetexture: '/textures/project/project1.png',
+      logo: '/assets/project-logo2.png',
+      logoStyle: {
+        backgroundColor: '#13202F',
+        border: '0.2px solid #17293E',
+        boxShadow: '0px 0px 60px 0px #2F6DB54D',
+      },
+      spotlight: '/assets/spotlight2.png',
+      tags: [
+        {
+          id: 5,
+          name: 'Next.js',
+          path: '/assets/next-js.svg',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 1,
+          name: 'Prisma',
+          path: '/assets/prisma.svg',
+        },
+        {
+          id: 4,
+          name: 'PostgreSQL',
+          path: '/assets/postgresql.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+      ],
+    },
     {
       title: 'FaceLink - A Video Conference App',
       desc: 'FaceLink is a video conferencing app that enables users to connect with others in real-time. It provides a seamless and intuitive experience, ensuring that everyone in the room can communicate with each other.',
