@@ -59,7 +59,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📞 Contact
 
 Feel free to reach out to me through the contact form on the portfolio or connect with me on [LinkedIn](https://www.linkedin.com/in/pritam-ghosh-dev).
-
----
-
-Happy coding! 🚀✨
