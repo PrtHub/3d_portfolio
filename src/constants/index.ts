@@ -63,8 +63,9 @@ export const navLinks = [
       subdesc:
         'Built with Next.js 14, Tailwind CSS, TypeScript, MongoDB and Clerk, Helper is an all-in-one solution for developers. It can be turned into a side income or even a full-fledged business.',
       href: 'https://helpernet.vercel.app',
-      texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+      videotexture: '/textures/project/project1.mp4',
+      imagetexture: '/textures/project/project1.png',
+      logo: '/assets/helper.ico',
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
@@ -142,7 +143,8 @@ export const navLinks = [
       subdesc:
         'With Next.js 14, Tailwind CSS, Clerk and using the power of Getstream.io, it enabling users to access various functionalities such as recording, screen sharing, and managing participants',
       href: 'https://face-link-vc.vercel.app',
-      texture: '/textures/project/project3.mp4',
+      videotexture: '/textures/project/project3.mp4',
+      imagetexture: '/textures/project/project1.png',
       logo: '/assets/facelink.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -218,7 +220,8 @@ export const navLinks = [
       subdesc:
         'Built with MERN Stack, Tailwind CSS, Firebase and Redux Toolkit, Realo ensures a smooth and efficient real estate management experience, tailored to meet the needs of modern consumers.',
       href: 'https://github.com/PrtHub/realo',
-      texture: '/textures/project/project4.mp4',
+      videotexture: '/textures/project/project4.mp4',
+      imagetexture: '/textures/project/project1.png',
       logo: '/assets/realo.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
